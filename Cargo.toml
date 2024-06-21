@@ -1,0 +1,13 @@
+[package]
+name = "steam-invite-filter"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "Kacper Tucholski"
+]
+description = "A program that automatically scans, declines, and blocks unwanted Steam friend invites"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+steam-rs = "0.4.4"
